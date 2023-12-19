@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        /* Add your custom styles here */
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("ground.jpg");
+            background-size: cover;
+            margin-top: auto;
+        }
+
+        .carousel-inner img {
+            width: 100%; /* Set the width to 100% for responsive images inside the carousel */
+            height: auto;
+            position: center;
+        }
+
+        #carouselExampleAutoplaying {
+            max-width: 500px; /* Set the maximum width of the carousel */
+            margin: auto; /* Center the carousel on the page */
+            position: center;
+            margin-top: 10%; /* Adjust margin-top as needed */
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 85%;
+            transform: translateX(-50%);
+            width: 100%;
+            z-index: 1;
+         }
+        
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        a {
+            display: block;
+            color: black; /* Change the text color to your preference */
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: #ddd; /* Add a background color on hover for better interactivity */
+            color: black; /* Change the text color on hover to your preference */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="skills.html">SKILLS</a></li>
+                <li><a href="special.html">SPECIAL</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <div class="d-flex justify-content-center"> <!-- Center the carousel -->
+            <div id="carouselExampleAutoplaying" class="carousel slide mt-10" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="five.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="bsis-2a.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="BSIS.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="family.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="girls.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="dinner.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="activity.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="fam.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="fr.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="frs.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="sir.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="venus.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

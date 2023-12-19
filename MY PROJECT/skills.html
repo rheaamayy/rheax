@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: bisque; /* Added background color */
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 85%;
+            transform: translateX(-50%);
+            width: 100%;
+            z-index: 1;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        a {
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        .column-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 80px;
+        }
+
+        .column {
+            width: 30%;
+            position: relative;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .image-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            text-align: left;
+        }
+
+        .image-description {
+            margin-top: 20px;
+            padding: 10px;
+            text-align: left;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutme.html">ABOUT ME</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+            <li><a href="special.html">SPECIAL</a></li>
+        </ul>
+    </nav>
+
+    <div class="column-container">
+        <div class="column">
+            <img src="painting.jpg" alt="Image 1">
+            <div class="image-text"></div>
+            <div class="image-description">
+                <strong>Artistic Painting</strong>
+                <p>
+                    Painting is a wonderful way to express my thoughts, emotions, and feelings in a creative way.
+                    It allows me to escape from the stresses of everyday life and focus on something that brings me joy.
+                    Painting can also be a form of meditation, as it requires me to immerse myself in the present moment,
+                    focus on the brushstrokes and let go of any distractions or worries. It can be very therapeutic and calming,
+                    helping to reduce anxiety and promote relaxation. </p>
+            </div>
+        </div>
+        <div class="column">
+            <img src="photography.jpg" alt="Image 2">
+            <div class="image-text"></div>
+            <div class="image-description">
+                <strong>Captivating Photography</strong>
+                <p>
+                    Taking photos is a fantastic hobby that allows you to capture moments and preserve memories in a visual form.
+                    Photos have the ability to freeze a moment in time. Whether it's a special occasion, or a candid moment with loved ones, photographs help me preserve memories that you can cherish for a lifetime. Looking back at your photos can evoke nostalgia and bring back the emotions and details of that particular moment. Also taking pictures of myself can help boost my confidence.
+                </p>
+            </div>
+        </div>
+        <div class="column">
+            <img src="cooking.jpg" alt="Image 3">
+            <div class="image-text"></div>
+            <div class="image-description">
+                <strong>Delicious Cooking</strong>
+                <p>
+                    I love cooking because it brings me a deep sense of satisfaction and fulfillment. There is something incredibly rewarding about starting with raw ingredients and transforming them into a delicious meal. When I see the final product, plated beautifully and ready to be enjoyed, a wave of happiness washes over me, knowing that I have created something special and nourishing for myself and others to enjoy.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rest of your content goes here -->
+
+</body>
+</html>

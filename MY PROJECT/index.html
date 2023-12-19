@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'sans-serif', 'Georgia';
+    }
+
+    body {
+        background-image: url("rhea.jpg");
+        background-size: cover;
+    }
+
+    .textbox {
+        position: static;
+        width: 30;
+        height: 90vh;
+    }
+
+    nav {
+        display: block;
+        width: 50%;
+        margin-left: 500px;
+        padding: 10px;
+        align-items: center;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(11, 10, 10);
+        font-weight: 400;
+    }
+
+    nav ul li a:hover {
+        color: orange;
+    }
+
+    .detail {
+        margin-left: 8%;
+        margin-top: 8%;
+    }
+
+    .detail h1 {
+        font-size: 70px;
+        font-weight: 600;
+        color: transparent;
+        margin-bottom: 20px;
+        -webkit-text-stroke: 1px rgb(16, 13, 13);
+        background-position-x: 0;
+        animation: back 20s linear infinite;
+    }
+    .detail h2{
+        color: white;
+        font-style: oblique;
+    }
+
+    @keyframes back {
+        100% {
+            background-position-x: 2000px;
+        }
+    }
+
+    span {
+        color:orange;
+    }
+
+    .detail p {
+        color: white;
+        line-height: 20px;
+    }
+
+    .detail a {
+        background: orange;
+        padding: 8px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        display: inline-block;
+        margin: 30px 0;
+        border-radius: 5px;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+        margin-right: 20px;
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .social-icons a:hover {
+        color: orange;
+    }
+</style>
+<body>
+
+<div class="textbox">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutme.html">ABOUT ME</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+            <li><a href="special.html">SPECIAL</a></li>
+        </ul>
+    </nav>
+    <div class="detail">
+        <h1> <span> Hi, </span></h1>
+        <h1> <span>RHEA MAY</span></h1>
+
+        <h2>Welcome to my Simple Portfolio!</h2>
+
+        <div class="row"></div>
+        <a href="aboutme.html">Explore My Portfolio &#8594;</a>
+        <a href="">Connect With Me &#8594;</a>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/rhea.nasayao" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/nasayao.rhea" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/Rhea Ibanez Nasayao" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="mailto:your.email@example.com/Rhea Nasayao" target="_blank"><i class="far fa-envelope"></i></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
